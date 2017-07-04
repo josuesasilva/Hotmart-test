@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		CAB7C1881F073CBF00FF19DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7C1871F073CBF00FF19DC /* AppDelegate.swift */; };
-		CAB7C18A1F073CBF00FF19DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7C1891F073CBF00FF19DC /* ViewController.swift */; };
 		CAB7C18D1F073CBF00FF19DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB7C18B1F073CBF00FF19DC /* Main.storyboard */; };
-		CAB7C18F1F073CBF00FF19DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB7C18E1F073CBF00FF19DC /* Assets.xcassets */; };
 		CAB7C1921F073CBF00FF19DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB7C1901F073CBF00FF19DC /* LaunchScreen.storyboard */; };
+		CAB7C19C1F073F7D00FF19DC /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7C19B1F073F7D00FF19DC /* DashboardViewController.swift */; };
+		CAB7C19E1F073F9F00FF19DC /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7C19D1F073F9F00FF19DC /* MessagesViewController.swift */; };
+		CAB7C1A01F073FBB00FF19DC /* MySalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7C19F1F073FBB00FF19DC /* MySalesViewController.swift */; };
+		CAB7C1AB1F0741A800FF19DC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAB7C1AA1F0741A800FF19DC /* Info.plist */; };
+		CAB7C1AD1F0741C200FF19DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB7C1AC1F0741C200FF19DC /* Assets.xcassets */; };
+		CAB7C1AF1F0AFC0E00FF19DC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7C1AE1F0AFC0E00FF19DC /* MainViewController.swift */; };
+		CAB7C1B11F0AFEE700FF19DC /* SlideMenuControllerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB7C1B01F0AFEE700FF19DC /* SlideMenuControllerSwift.framework */; };
+		CAB7C1B21F0AFEE700FF19DC /* SlideMenuControllerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CAB7C1B01F0AFEE700FF19DC /* SlideMenuControllerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CAB7C1B51F0AFF6900FF19DC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7C1B41F0AFF6900FF19DC /* MenuViewController.swift */; };
+		CAB7C1B71F0B071D00FF19DC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7C1B61F0B071D00FF19DC /* BaseViewController.swift */; };
+		CAB7C1BB1F0B0A2400FF19DC /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7C1BA1F0B0A2400FF19DC /* NavigationBar.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAB7C1B31F0AFEE700FF19DC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CAB7C1B21F0AFEE700FF19DC /* SlideMenuControllerSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CAB7C1841F073CBF00FF19DC /* hotmart-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hotmart-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAB7C1871F073CBF00FF19DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CAB7C1891F073CBF00FF19DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAB7C1871F073CBF00FF19DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "hotmart-test/Controllers/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
 		CAB7C18C1F073CBF00FF19DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CAB7C18E1F073CBF00FF19DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAB7C1911F073CBF00FF19DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CAB7C1931F073CBF00FF19DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB7C19B1F073F7D00FF19DC /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		CAB7C19D1F073F9F00FF19DC /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		CAB7C19F1F073FBB00FF19DC /* MySalesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySalesViewController.swift; sourceTree = "<group>"; };
+		CAB7C1AA1F0741A800FF19DC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB7C1AC1F0741C200FF19DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAB7C1AE1F0AFC0E00FF19DC /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CAB7C1B01F0AFEE700FF19DC /* SlideMenuControllerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SlideMenuControllerSwift.framework; path = Carthage/Build/iOS/SlideMenuControllerSwift.framework; sourceTree = "<group>"; };
+		CAB7C1B41F0AFF6900FF19DC /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CAB7C1B61F0B071D00FF19DC /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CAB7C1BA1F0B0A2400FF19DC /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB7C1B11F0AFEE700FF19DC /* SlideMenuControllerSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +69,7 @@
 		CAB7C17B1F073CBF00FF19DC = {
 			isa = PBXGroup;
 			children = (
+				CAB7C1B01F0AFEE700FF19DC /* SlideMenuControllerSwift.framework */,
 				CAB7C1861F073CBF00FF19DC /* hotmart-test */,
 				CAB7C1851F073CBF00FF19DC /* Products */,
 			);
@@ -54,14 +86,84 @@
 		CAB7C1861F073CBF00FF19DC /* hotmart-test */ = {
 			isa = PBXGroup;
 			children = (
-				CAB7C1871F073CBF00FF19DC /* AppDelegate.swift */,
-				CAB7C1891F073CBF00FF19DC /* ViewController.swift */,
-				CAB7C18B1F073CBF00FF19DC /* Main.storyboard */,
-				CAB7C18E1F073CBF00FF19DC /* Assets.xcassets */,
-				CAB7C1901F073CBF00FF19DC /* LaunchScreen.storyboard */,
-				CAB7C1931F073CBF00FF19DC /* Info.plist */,
+				CAB7C1A11F07401000FF19DC /* Views */,
+				CAB7C19A1F073ED500FF19DC /* Controllers */,
+				CAB7C1991F073D9800FF19DC /* Resources */,
 			);
 			path = "hotmart-test";
+			sourceTree = "<group>";
+		};
+		CAB7C1991F073D9800FF19DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CAB7C1AC1F0741C200FF19DC /* Assets.xcassets */,
+				CAB7C1AA1F0741A800FF19DC /* Info.plist */,
+				CAB7C18B1F073CBF00FF19DC /* Main.storyboard */,
+				CAB7C1901F073CBF00FF19DC /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CAB7C19A1F073ED500FF19DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CAB7C1871F073CBF00FF19DC /* AppDelegate.swift */,
+				CAB7C19B1F073F7D00FF19DC /* DashboardViewController.swift */,
+				CAB7C19D1F073F9F00FF19DC /* MessagesViewController.swift */,
+				CAB7C19F1F073FBB00FF19DC /* MySalesViewController.swift */,
+				CAB7C1AE1F0AFC0E00FF19DC /* MainViewController.swift */,
+				CAB7C1B41F0AFF6900FF19DC /* MenuViewController.swift */,
+				CAB7C1B61F0B071D00FF19DC /* BaseViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CAB7C1A11F07401000FF19DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAB7C1B91F0B0A0900FF19DC /* Container */,
+				CAB7C1A21F07401000FF19DC /* Dashboard */,
+				CAB7C1A31F07401000FF19DC /* Menu */,
+				CAB7C1A41F07401000FF19DC /* Messages */,
+				CAB7C1A51F07401000FF19DC /* MySales */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CAB7C1A21F07401000FF19DC /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		CAB7C1A31F07401000FF19DC /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		CAB7C1A41F07401000FF19DC /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		CAB7C1A51F07401000FF19DC /* MySales */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MySales;
+			sourceTree = "<group>";
+		};
+		CAB7C1B91F0B0A0900FF19DC /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				CAB7C1BA1F0B0A2400FF19DC /* NavigationBar.swift */,
+			);
+			path = Container;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +176,7 @@
 				CAB7C1801F073CBF00FF19DC /* Sources */,
 				CAB7C1811F073CBF00FF19DC /* Frameworks */,
 				CAB7C1821F073CBF00FF19DC /* Resources */,
+				CAB7C1B31F0AFEE700FF19DC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,8 +228,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAB7C1921F073CBF00FF19DC /* LaunchScreen.storyboard in Resources */,
-				CAB7C18F1F073CBF00FF19DC /* Assets.xcassets in Resources */,
 				CAB7C18D1F073CBF00FF19DC /* Main.storyboard in Resources */,
+				CAB7C1AB1F0741A800FF19DC /* Info.plist in Resources */,
+				CAB7C1AD1F0741C200FF19DC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +241,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAB7C18A1F073CBF00FF19DC /* ViewController.swift in Sources */,
+				CAB7C19E1F073F9F00FF19DC /* MessagesViewController.swift in Sources */,
+				CAB7C1B51F0AFF6900FF19DC /* MenuViewController.swift in Sources */,
+				CAB7C19C1F073F7D00FF19DC /* DashboardViewController.swift in Sources */,
+				CAB7C1BB1F0B0A2400FF19DC /* NavigationBar.swift in Sources */,
 				CAB7C1881F073CBF00FF19DC /* AppDelegate.swift in Sources */,
+				CAB7C1A01F073FBB00FF19DC /* MySalesViewController.swift in Sources */,
+				CAB7C1B71F0B071D00FF19DC /* BaseViewController.swift in Sources */,
+				CAB7C1AF1F0AFC0E00FF19DC /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +371,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = NBJCH42A7P;
-				INFOPLIST_FILE = "hotmart-test/Info.plist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "hotmart-test/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.hotmart.test.hotmart-test";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.hotmart.test.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,10 +389,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = NBJCH42A7P;
-				INFOPLIST_FILE = "hotmart-test/Info.plist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "hotmart-test/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.hotmart.test.hotmart-test";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.hotmart.test.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +422,7 @@
 				CAB7C1981F073CBF00FF19DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
