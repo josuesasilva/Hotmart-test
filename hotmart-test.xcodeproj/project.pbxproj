@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA37F8361F0C50C8004143AD /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37F8341F0C50C8004143AD /* MessageTableViewCell.swift */; };
+		CA37F8371F0C50C8004143AD /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA37F8351F0C50C8004143AD /* MessageTableViewCell.xib */; };
+		CA37F8391F0D9DA8004143AD /* NavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37F8381F0D9DA8004143AD /* NavigationDelegate.swift */; };
 		CAB7C1881F073CBF00FF19DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7C1871F073CBF00FF19DC /* AppDelegate.swift */; };
 		CAB7C18D1F073CBF00FF19DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB7C18B1F073CBF00FF19DC /* Main.storyboard */; };
 		CAB7C1921F073CBF00FF19DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB7C1901F073CBF00FF19DC /* LaunchScreen.storyboard */; };
@@ -21,6 +24,7 @@
 		CAB7C1B51F0AFF6900FF19DC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7C1B41F0AFF6900FF19DC /* MenuViewController.swift */; };
 		CAB7C1B71F0B071D00FF19DC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7C1B61F0B071D00FF19DC /* BaseViewController.swift */; };
 		CAB7C1BB1F0B0A2400FF19DC /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7C1BA1F0B0A2400FF19DC /* NavigationBar.swift */; };
+		CABDD9671F0C331100B690B1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDD9661F0C331100B690B1 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +42,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CA37F8341F0C50C8004143AD /* MessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		CA37F8351F0C50C8004143AD /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		CA37F8381F0D9DA8004143AD /* NavigationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDelegate.swift; sourceTree = "<group>"; };
 		CAB7C1841F073CBF00FF19DC /* hotmart-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hotmart-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB7C1871F073CBF00FF19DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "hotmart-test/Controllers/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
 		CAB7C18C1F073CBF00FF19DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,6 +59,7 @@
 		CAB7C1B41F0AFF6900FF19DC /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		CAB7C1B61F0B071D00FF19DC /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		CAB7C1BA1F0B0A2400FF19DC /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		CABDD9661F0C331100B690B1 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA37F83A1F0DA0BC004143AD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CA37F8381F0D9DA8004143AD /* NavigationDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CA37F83B1F0DA0C2004143AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CABDD9661F0C331100B690B1 /* Colors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		CAB7C17B1F073CBF00FF19DC = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +110,7 @@
 		CAB7C1861F073CBF00FF19DC /* hotmart-test */ = {
 			isa = PBXGroup;
 			children = (
+				CABDD9651F0C32DC00B690B1 /* Helpers */,
 				CAB7C1A11F07401000FF19DC /* Views */,
 				CAB7C19A1F073ED500FF19DC /* Controllers */,
 				CAB7C1991F073D9800FF19DC /* Resources */,
@@ -133,6 +158,8 @@
 		CAB7C1A21F07401000FF19DC /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				CA37F8341F0C50C8004143AD /* MessageTableViewCell.swift */,
+				CA37F8351F0C50C8004143AD /* MessageTableViewCell.xib */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -164,6 +191,15 @@
 				CAB7C1BA1F0B0A2400FF19DC /* NavigationBar.swift */,
 			);
 			path = Container;
+			sourceTree = "<group>";
+		};
+		CABDD9651F0C32DC00B690B1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CA37F83B1F0DA0C2004143AD /* Extensions */,
+				CA37F83A1F0DA0BC004143AD /* Protocols */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +265,7 @@
 			files = (
 				CAB7C1921F073CBF00FF19DC /* LaunchScreen.storyboard in Resources */,
 				CAB7C18D1F073CBF00FF19DC /* Main.storyboard in Resources */,
+				CA37F8371F0C50C8004143AD /* MessageTableViewCell.xib in Resources */,
 				CAB7C1AB1F0741A800FF19DC /* Info.plist in Resources */,
 				CAB7C1AD1F0741C200FF19DC /* Assets.xcassets in Resources */,
 			);
@@ -242,7 +279,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAB7C19E1F073F9F00FF19DC /* MessagesViewController.swift in Sources */,
+				CABDD9671F0C331100B690B1 /* Colors.swift in Sources */,
 				CAB7C1B51F0AFF6900FF19DC /* MenuViewController.swift in Sources */,
+				CA37F8361F0C50C8004143AD /* MessageTableViewCell.swift in Sources */,
+				CA37F8391F0D9DA8004143AD /* NavigationDelegate.swift in Sources */,
 				CAB7C19C1F073F7D00FF19DC /* DashboardViewController.swift in Sources */,
 				CAB7C1BB1F0B0A2400FF19DC /* NavigationBar.swift in Sources */,
 				CAB7C1881F073CBF00FF19DC /* AppDelegate.swift in Sources */,

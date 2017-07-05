@@ -10,17 +10,25 @@ import UIKit
 import SlideMenuControllerSwift
 
 class MainViewController: SlideMenuController {
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     override func awakeFromNib() {
-        if let controller = self.storyboard?.instantiateViewController(withIdentifier: "dashboardController") {
-            self.mainViewController = controller
-        }
-        if let controller = self.storyboard?.instantiateViewController(withIdentifier: "menuController") {
-            self.leftViewController = controller
+        if let controller = self.storyboard?.instantiateViewController(withIdentifier: "baseController") {
+            let baseVC = controller as! BaseViewController
+            self.mainViewController = baseVC
+            
+            if let controller = self.storyboard?.instantiateViewController(withIdentifier: "menuController") {
+                let menuVC = controller as! MenuViewController
+                menuVC.delegate = baseVC
+                self.leftViewController = menuVC
+            }
         }
         super.awakeFromNib()
     }

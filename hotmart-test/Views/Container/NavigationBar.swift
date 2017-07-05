@@ -13,5 +13,17 @@ class NavigationBar: UIView {
     override func awakeFromNib() {
         super.awakeFromNib()
     }
+    
+    func dashboardNavbar() {
+        self.backgroundColor = Colors.dashboardNavbarBackground
+    }
+    
+    func salesNavbar() {
+        self.backgroundColor = Colors.salesNavbarBackground
+    }
+    
+    func messagesNavbar() {
+        self.backgroundColor = Colors.messagesNavbarBackground
+    }
 
 }

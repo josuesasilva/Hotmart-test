@@ -8,10 +8,24 @@
 
 import UIKit
 
-class MenuViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
+class MenuViewController: UITableViewController {
+    
+    var delegate: NavigationDelegate?
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        switch indexPath.row {
+        case 0:
+            delegate?.goToDashboard()
+            break
+        case 1:
+            delegate?.goToSales()
+            break
+        case 4:
+            delegate?.goToMessages()
+        default:
+            break
+        }
+        self.closeLeft()
     }
 
 }
