@@ -14,6 +14,7 @@ class DashboardViewController: UIViewController {
     @IBOutlet weak var viewTitle: UIView!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var messageCounter: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()

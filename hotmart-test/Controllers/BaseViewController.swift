@@ -13,6 +13,7 @@ class BaseViewController: UIViewController, NavigationDelegate {
     @IBOutlet weak var navbar: NavigationBar!
     @IBOutlet weak var menuButton: UIButton!
     @IBOutlet weak var navbarTitle: UILabel!
+    @IBOutlet weak var messageCounter: UILabel!
     
     var navigation: UINavigationController?
     
@@ -39,18 +40,21 @@ class BaseViewController: UIViewController, NavigationDelegate {
     }
     
     func goToDashboard() {
+        messageCounter.isHidden = true
         navbar.dashboardNavbar()
         navbarTitle.text = LocalizedString.foKey(key: "navbar.dashboard.title")
         setViewController(name: "dashboardController")
     }
     
     func goToSales() {
+        messageCounter.isHidden = true
         navbar.salesNavbar()
         navbarTitle.text = LocalizedString.foKey(key: "navbar.sales.title")
         setViewController(name: "salesController")
     }
     
     func goToMessages() {
+        messageCounter.isHidden = false
         navbar.messagesNavbar()
         navbarTitle.text = LocalizedString.foKey(key: "navbar.messages.title")
         setViewController(name: "messagesController")
