@@ -1,0 +1,21 @@
+{
+  "iOS" : [
+    {
+      "hash" : "70d3674802265348dac666396290a088a56807bedc2bf835cd1323ebd80e1ba3",
+      "name" : "Toucan"
+    }
+  ],
+  "commitish" : "0.6.0",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "hash" : "1719907cef114e7281e6cdcc2889a963af1e01cdcd1f40fd000cee5f1dd6fdf0",
+      "name" : "Toucan"
+    }
+  ],
+  "Mac" : [
+
+  ]
+}

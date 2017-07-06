@@ -20,6 +20,9 @@ class MainViewController: SlideMenuController {
     }
     
     override func awakeFromNib() {
+        SlideMenuOptions.leftViewWidth = 320
+        SlideMenuOptions.contentViewScale = 1.0
+        
         if let controller = self.storyboard?.instantiateViewController(withIdentifier: "baseController") {
             let baseVC = controller as! BaseViewController
             self.mainViewController = baseVC
