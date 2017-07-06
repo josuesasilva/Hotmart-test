@@ -40,19 +40,19 @@ class BaseViewController: UIViewController, NavigationDelegate {
     
     func goToDashboard() {
         navbar.dashboardNavbar()
-        navbarTitle.text = "Dashboard"
+        navbarTitle.text = LocalizedString.foKey(key: "navbar.dashboard.title")
         setViewController(name: "dashboardController")
     }
     
     func goToSales() {
         navbar.salesNavbar()
-        navbarTitle.text = "Minhas Vendas"
+        navbarTitle.text = LocalizedString.foKey(key: "navbar.sales.title")
         setViewController(name: "salesController")
     }
     
     func goToMessages() {
         navbar.messagesNavbar()
-        navbarTitle.text = "Mensagens"
+        navbarTitle.text = LocalizedString.foKey(key: "navbar.messages.title")
         setViewController(name: "messagesController")
     }
     

@@ -1,0 +1,11 @@
+/* 
+  File.strings
+  hotmart-test
+
+  Created by Josué on 05/07/17.
+  Copyright © 2017 Josué. All rights reserved.
+*/
+
+"navbar.sales.title" = "My Sales";
+"navbar.messages.title" = "Messages";
+"navbar.dashboard.title" = "Dashboard";

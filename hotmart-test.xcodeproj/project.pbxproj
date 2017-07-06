@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CA37F8361F0C50C8004143AD /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37F8341F0C50C8004143AD /* MessageTableViewCell.swift */; };
-		CA37F8371F0C50C8004143AD /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA37F8351F0C50C8004143AD /* MessageTableViewCell.xib */; };
 		CA37F8391F0D9DA8004143AD /* NavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37F8381F0D9DA8004143AD /* NavigationDelegate.swift */; };
 		CA37F8411F0DA85C004143AD /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37F83F1F0DA85C004143AD /* UserCollectionViewCell.swift */; };
 		CA37F8421F0DA85C004143AD /* UserCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA37F8401F0DA85C004143AD /* UserCollectionViewCell.xib */; };
@@ -18,6 +17,9 @@
 		CA37F8481F0DC3F9004143AD /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA37F8461F0DC3F9004143AD /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CA37F84A1F0DC402004143AD /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA37F8491F0DC402004143AD /* AlamofireImage.framework */; };
 		CA37F84B1F0DC402004143AD /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA37F8491F0DC402004143AD /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CA37F8561F0DCB4D004143AD /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA37F8581F0DCB4D004143AD /* MessageTableViewCell.xib */; };
+		CA37F8611F0DCE3B004143AD /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37F8601F0DCE3B004143AD /* LocalizedString.swift */; };
+		CA37F8621F0DCEE9004143AD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA37F8641F0DCEE9004143AD /* Localizable.strings */; };
 		CAB7C1881F073CBF00FF19DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7C1871F073CBF00FF19DC /* AppDelegate.swift */; };
 		CAB7C18D1F073CBF00FF19DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB7C18B1F073CBF00FF19DC /* Main.storyboard */; };
 		CAB7C1921F073CBF00FF19DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB7C1901F073CBF00FF19DC /* LaunchScreen.storyboard */; };
@@ -54,13 +56,21 @@
 
 /* Begin PBXFileReference section */
 		CA37F8341F0C50C8004143AD /* MessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
-		CA37F8351F0C50C8004143AD /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
 		CA37F8381F0D9DA8004143AD /* NavigationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDelegate.swift; sourceTree = "<group>"; };
 		CA37F83F1F0DA85C004143AD /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
 		CA37F8401F0DA85C004143AD /* UserCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCollectionViewCell.xib; sourceTree = "<group>"; };
 		CA37F8431F0DAED1004143AD /* Toucan.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Toucan.framework; path = Carthage/Build/iOS/Toucan.framework; sourceTree = "<group>"; };
 		CA37F8461F0DC3F9004143AD /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		CA37F8491F0DC402004143AD /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		CA37F8571F0DCB4D004143AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MessageTableViewCell.xib; sourceTree = "<group>"; };
+		CA37F8591F0DCB50004143AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MessageTableViewCell.xib; sourceTree = "<group>"; };
+		CA37F85B1F0DCBF9004143AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		CA37F8601F0DCE3B004143AD /* LocalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
+		CA37F8631F0DCEE9004143AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CA37F8651F0DCEF1004143AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CA37F8661F0DD068004143AD /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/MessageTableViewCell.strings"; sourceTree = "<group>"; };
+		CA37F8671F0DD068004143AD /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		CA37F8681F0DD068004143AD /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		CAB7C1841F073CBF00FF19DC /* hotmart-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hotmart-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB7C1871F073CBF00FF19DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "hotmart-test/Controllers/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
 		CAB7C18C1F073CBF00FF19DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -143,6 +153,7 @@
 		CAB7C1991F073D9800FF19DC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CA37F8641F0DCEE9004143AD /* Localizable.strings */,
 				CAB7C1AC1F0741C200FF19DC /* Assets.xcassets */,
 				CAB7C1AA1F0741A800FF19DC /* Info.plist */,
 				CAB7C18B1F073CBF00FF19DC /* Main.storyboard */,
@@ -181,7 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				CA37F8341F0C50C8004143AD /* MessageTableViewCell.swift */,
-				CA37F8351F0C50C8004143AD /* MessageTableViewCell.xib */,
+				CA37F8581F0DCB4D004143AD /* MessageTableViewCell.xib */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -222,6 +233,7 @@
 			children = (
 				CA37F83B1F0DA0C2004143AD /* Extensions */,
 				CA37F83A1F0DA0BC004143AD /* Protocols */,
+				CA37F8601F0DCE3B004143AD /* LocalizedString.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -271,6 +283,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = CAB7C17B1F073CBF00FF19DC;
 			productRefGroup = CAB7C1851F073CBF00FF19DC /* Products */;
@@ -288,8 +301,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAB7C1921F073CBF00FF19DC /* LaunchScreen.storyboard in Resources */,
+				CA37F8621F0DCEE9004143AD /* Localizable.strings in Resources */,
 				CAB7C18D1F073CBF00FF19DC /* Main.storyboard in Resources */,
-				CA37F8371F0C50C8004143AD /* MessageTableViewCell.xib in Resources */,
+				CA37F8561F0DCB4D004143AD /* MessageTableViewCell.xib in Resources */,
 				CA37F8421F0DA85C004143AD /* UserCollectionViewCell.xib in Resources */,
 				CAB7C1AB1F0741A800FF19DC /* Info.plist in Resources */,
 				CAB7C1AD1F0741C200FF19DC /* Assets.xcassets in Resources */,
@@ -305,6 +319,7 @@
 			files = (
 				CAB7C19E1F073F9F00FF19DC /* MessagesViewController.swift in Sources */,
 				CABDD9671F0C331100B690B1 /* Colors.swift in Sources */,
+				CA37F8611F0DCE3B004143AD /* LocalizedString.swift in Sources */,
 				CAB7C1B51F0AFF6900FF19DC /* MenuViewController.swift in Sources */,
 				CA37F8361F0C50C8004143AD /* MessageTableViewCell.swift in Sources */,
 				CA37F8391F0D9DA8004143AD /* NavigationDelegate.swift in Sources */,
@@ -321,10 +336,32 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		CA37F8581F0DCB4D004143AD /* MessageTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA37F8571F0DCB4D004143AD /* en */,
+				CA37F8591F0DCB50004143AD /* Base */,
+				CA37F8661F0DD068004143AD /* pt-BR */,
+			);
+			name = MessageTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		CA37F8641F0DCEE9004143AD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA37F8631F0DCEE9004143AD /* en */,
+				CA37F8651F0DCEF1004143AD /* Base */,
+				CA37F8681F0DD068004143AD /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		CAB7C18B1F073CBF00FF19DC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CAB7C18C1F073CBF00FF19DC /* Base */,
+				CA37F85B1F0DCBF9004143AD /* en */,
+				CA37F8671F0DD068004143AD /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -344,6 +381,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -394,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";

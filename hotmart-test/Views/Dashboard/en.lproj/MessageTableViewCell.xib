@@ -19,7 +19,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="115"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Como decorar uma festa infantil maravilhosa..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QJ-6a-LCc">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to Decorate a Wonderful Children's Party..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QJ-6a-LCc">
                         <rect key="frame" x="27" y="28" width="195" height="40"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="40" id="Idh-DW-Kls"/>
@@ -38,7 +38,7 @@
                         <color key="textColor" red="0.56862745098039214" green="0.56862745098039214" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11/01/2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qrd-gw-1fs">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01/11/2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qrd-gw-1fs">
                         <rect key="frame" x="101" y="72" width="67" height="16"/>
                         <constraints>
                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="67" id="3uA-31-42B"/>
@@ -48,10 +48,10 @@
                         <color key="textColor" red="0.56862745100000001" green="0.56862745100000001" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 1.035,00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4K-lm-dqV">
-                        <rect key="frame" x="198" y="86" width="100" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="US$ 1.035,00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4K-lm-dqV">
+                        <rect key="frame" x="178" y="86" width="120" height="21"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="100" id="Xtw-Y4-sGM"/>
+                            <constraint firstAttribute="width" constant="120" id="Xtw-Y4-sGM"/>
                         </constraints>
                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
                         <color key="textColor" red="0.28627450980392155" green="0.50980392156862742" blue="0.77254901960784317" alpha="1" colorSpace="calibratedRGB"/>
@@ -92,6 +92,10 @@
             </tableViewCellContentView>
             <connections>
                 <outlet property="alertIcon" destination="1d8-Ur-hWN" id="6Hb-kv-Wjf"/>
+                <outlet property="content" destination="8QJ-6a-LCc" id="NS2-J3-SaD"/>
+                <outlet property="date" destination="qrd-gw-1fs" id="S3O-4X-vMm"/>
+                <outlet property="userId" destination="wHU-0B-ymX" id="jNz-ba-isj"/>
+                <outlet property="value" destination="K4K-lm-dqV" id="Dig-1y-DZg"/>
             </connections>
             <point key="canvasLocation" x="25" y="52.5"/>
         </tableViewCell>
