@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Toucan
 import AlamofireImage
 
 class MenuViewController: UITableViewController {
@@ -21,8 +20,7 @@ class MenuViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // For a circle, ensure the image width and height are equal!
-        profilePhoto.image = Toucan(image: profilePhoto.image!).maskWithEllipse().image
+        profilePhoto.image = profilePhoto.image!.af_imageRoundedIntoCircle()
         let blurredImage = background.image!.af_imageFiltered(
             withCoreImageFilter:"CIGaussianBlur",
             parameters: ["inputRadius": 10]

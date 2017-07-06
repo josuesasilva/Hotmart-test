@@ -1,3 +1,2 @@
 github "dekatotoro/SlideMenuControllerSwift"
-github "gavinbunney/Toucan"
 github "Alamofire/AlamofireImage" ~> 3.1

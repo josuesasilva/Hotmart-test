@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Toucan
+import AlamofireImage
 
 class UserCollectionViewCell: UICollectionViewCell {
 
@@ -16,8 +16,7 @@ class UserCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // For a circle, ensure the image width and height are equal!
-        image.image = Toucan(image: image.image!).maskWithEllipse().image
+        image.image = image.image!.af_imageRoundedIntoCircle()
     }
 
 }
